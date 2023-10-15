@@ -4,6 +4,8 @@ use App\Http\Controllers\AdminController;
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\ClientController;
 use App\Http\Controllers\LandingController;
+use App\Http\Controllers\UserController;
+use App\Http\Controllers\WorkerController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -31,11 +33,14 @@ Route::middleware(['guest'])->group(function () {
 Route::middleware(['auth'])->group(function () {
     Route::middleware(['admin'])->group(function () {
         Route::get('/admin/home', [AdminController::class, 'home'])->name('admin.home');
-        
     });
 
     Route::middleware(['user'])->group(function () {
-        Route::get('/client/home', [ClientController::class, 'home'])->name('client.home');
+        Route::get('/user/home', [UserController::class, 'home'])->name('user.home');
+    });
+
+    Route::middleware(['worker'])->group(function () {
+        Route::get('/worker/home', [WorkerController::class, 'home'])->name('worker.home');
     });
 
     //Logout

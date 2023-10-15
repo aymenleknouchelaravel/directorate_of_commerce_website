@@ -24,16 +24,13 @@
     <div class="content">
         <div class="container">
             <div class="row">
-                <div class="col-md-6 order-md-2">
-                    <img src="auth/images/bg.jpg" alt="Image" class="img-fluid">
-                </div>
-                <div class="col-md-6 contents">
+
+                <div class="col-md-12 contents">
                     <div class="row justify-content-center">
                         <div class="col-md-8">
                             <div class="mb-4">
-                                <h3>Sign Up to <strong>Website Name</strong></h3>
-                                <p class="mb-4">Lorem ipsum dolor sit amet elit. Sapiente sit aut eos consectetur
-                                    adipisicing.</p>
+                                <h3>Sign Up</h3>
+
                             </div>
                             @include('shared.errors')
                             <form action="/register" method="POST">
@@ -59,17 +56,6 @@
                                     <p class="mb-4">Already have an account? <a class="link"
                                             href="/login">login</a></p>
                                 </div>
-                                {{-- <div class="social-login">
-                <a href="#" class="facebook">
-                  <span class="icon-facebook mr-3"></span> 
-                </a>
-                <a href="#" class="twitter">
-                  <span class="icon-twitter mr-3"></span> 
-                </a>
-                <a href="#" class="google">
-                  <span class="icon-google mr-3"></span> 
-                </a>
-              </div> --}}
                             </form>
                         </div>
                     </div>

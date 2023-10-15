@@ -49,14 +49,13 @@ class AuthController extends Controller
         $user = new User();
         $user->name = $request->name;
         $user->surname = $request->surname;
-        $user->role = 'client';
         $user->email = $request->email;
         $user->password = bcrypt($request->password);
         $user->save();
 
         auth()->login($user);
 
-        return redirect()->route('client.home');
+        return redirect()->route('worker.home');
     }
 
     public function logout()
