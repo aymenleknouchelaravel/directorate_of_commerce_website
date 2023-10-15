@@ -68,10 +68,10 @@
                         <div class="wrap-inner clearfix">
                             <div id="site-logo" class="clearfix">
                                 <div id="site-log-inner">
-                                    <a href="home.html" rel="home" class="main-logo">
-                                        <img src="landing/assets/img/logo-small.png" alt="Autora" width="186"
-                                            height="39" data-retina="/landing/assets/img/logo-small@2x.png"
-                                            data-width="186" data-height="39">
+                                    <a href="/" rel="home" class="main-logo">
+                                        <img src="landing/assets/img/logo-small.png" alt="Autora" width="60"
+                                            height="39" data-retina="/landing/assets/img/logo.png"
+                                            data-width="60">
                                     </a>
                                 </div>
                             </div><!-- /#site-logo -->
@@ -84,6 +84,12 @@
                                 <ul id="menu-primary-menu" class="menu">
                                     <li class="menu-item menu-item-has-children current-menu-item">
                                         <a href="/">HOME</a>
+                                    </li>
+                                    <li class="menu-item menu-item-has-children current-menu-item">
+                                        <a href="/login">LOGIN</a>
+                                    </li>
+                                    <li class="menu-item menu-item-has-children current-menu-item">
+                                        <a href="/register">SIGNUP</a>
                                     </li>
                                 </ul>
                             </nav><!-- /#main-nav -->
@@ -120,10 +126,11 @@
                                                     data-transform_idle="o:1;"
                                                     data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;"
                                                     data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
-                                                    data-mask_in="x:0px;y:[100%];" data-mask_out="x:inherit;y:inherit;"
-                                                    data-start="700" data-splitin="none" data-splitout="none"
+                                                    data-mask_in="x:0px;y:[100%];"
+                                                    data-mask_out="x:inherit;y:inherit;" data-start="700"
+                                                    data-splitin="none" data-splitout="none"
                                                     data-responsive_offset="on">
-                                                    A GLOBAL LEADER IN INFRASTRUCTURE
+                                                    Contributes to
                                                 </div>
 
                                                 <div class="tp-caption tp-resizeme text-white font-heading font-weight-700"
@@ -141,7 +148,7 @@
                                                     data-mask_out="x:inherit;y:inherit;" data-start="1000"
                                                     data-splitin="none" data-splitout="none"
                                                     data-responsive_offset="on">
-                                                    WE WILL BE HAPPY
+                                                    developing the law of
                                                 </div>
 
                                                 <div class="tp-caption tp-resizeme text-white font-heading font-weight-700"
@@ -159,7 +166,7 @@
                                                     data-mask_out="x:inherit;y:inherit;" data-start="1000"
                                                     data-splitin="none" data-splitout="none"
                                                     data-responsive_offset="on">
-                                                    TO TAKE CARE OF YOUR WORK
+                                                    practices and competition
                                                 </div>
 
                                                 <div class="tp-caption" data-x="['left','left','left','center']"
@@ -200,7 +207,7 @@
                                                     data-mask_out="x:inherit;y:inherit;" data-start="700"
                                                     data-splitin="none" data-splitout="none"
                                                     data-responsive_offset="on">
-                                                    A GLOBAL LEADER IN INFRASTRUCTURE
+                                                    Following up on
                                                 </div>
 
                                                 <div class="tp-caption tp-resizeme text-white font-heading font-weight-700 text-center"
@@ -218,7 +225,7 @@
                                                     data-mask_out="x:inherit;y:inherit;" data-start="1000"
                                                     data-splitin="none" data-splitout="none"
                                                     data-responsive_offset="on">
-                                                    WE WILL BE HAPPY
+                                                    price developments and production
                                                 </div>
 
                                                 <div class="tp-caption tp-resizeme text-white font-heading font-weight-700 text-center"
@@ -236,7 +243,7 @@
                                                     data-mask_out="x:inherit;y:inherit;" data-start="1000"
                                                     data-splitin="none" data-splitout="none"
                                                     data-responsive_offset="on">
-                                                    TO TAKE CARE OF YOUR WORK
+                                                    and consumption indicators
                                                 </div>
 
                                                 <div class="tp-caption text-center"
@@ -255,13 +262,10 @@
                                                 </div>
                                             </li>
                                             <!-- /End Slide 2 -->
-
-
                                         </ul>
                                     </div>
                                 </div>
                                 <!-- END SLIDER -->
-
 
                                 <!-- ABOUT -->
                                 <div class="row-about">
@@ -308,7 +312,8 @@
                                                 <div class="themesflat-spacer clearfix" data-desktop="60"
                                                     data-mobile="60" data-smobile="60"></div>
                                                 <div class="themesflat-headings style-1 text-center clearfix">
-                                                    <h2 class="heading">BEST SERVICES</h2>
+                                                    <h2 class="heading">Organizational structure of the institution
+                                                    </h2>
                                                     <div class="sep has-icon width-125 clearfix">
                                                         <div class="sep-icon">
                                                             <span class="sep-icon-before sep-center sep-solid"></span>
@@ -317,9 +322,6 @@
                                                             <span class="sep-icon-after sep-center sep-solid"></span>
                                                         </div>
                                                     </div>
-                                                    <p class="sub-heading">Construction Services offers a full range of
-                                                        construction services from initial design to project completion.
-                                                    </p>
                                                 </div>
                                                 <div class="themesflat-spacer clearfix" data-desktop="39"
                                                     data-mobile="35" data-smobile="35"></div>
@@ -332,15 +334,15 @@
                                                             <div class="image-box-item">
                                                                 <div class="inner">
                                                                     <div class="thumb data-effect-item">
-                                                                        <img src="landing/assets/img/imagebox/image-box-1-370x250.jpg"
+                                                                        <img src="landing/assets/img/imagebox/service.jpg"
                                                                             alt="Image">
                                                                         <div class="overlay-effect bg-color-accent">
                                                                         </div>
                                                                     </div>
                                                                     <div class="text-wrap">
-                                                                        <h5 class="heading"><a href="#">DESIGN &
-                                                                                BUILD</a></h5>
-
+                                                                        <h5 class="heading"><a href="#">Market
+                                                                                observation</a>
+                                                                        </h5>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -351,34 +353,15 @@
                                                             <div class="image-box-item">
                                                                 <div class="inner">
                                                                     <div class="thumb data-effect-item">
-                                                                        <img src="landing/assets/img/imagebox/image-box-2-370x250.jpg"
-                                                                            alt="Image">
-                                                                        <div class="overlay-effect bg-color-accent">
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="text-wrap">
-                                                                        <h5 class="heading"><a href="#">BUILDING
-                                                                                ENVELOPES</a></h5>
-
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div><!-- /.themesflat-image-box -->
-
-                                                        <div
-                                                            class="themesflat-image-box style-1 has-icon icon-right w65 clearfix">
-                                                            <div class="image-box-item">
-                                                                <div class="inner">
-                                                                    <div class="thumb data-effect-item">
-                                                                        <img src="landing/assets/img/imagebox/image-box-3-370x250.jpg"
+                                                                        <img src="landing/assets/img/imagebox/service.jpg"
                                                                             alt="Image">
                                                                         <div class="overlay-effect bg-color-accent">
                                                                         </div>
                                                                     </div>
                                                                     <div class="text-wrap">
                                                                         <h5 class="heading"><a
-                                                                                href="#">CONSTRUCTION</a></h5>
-
+                                                                                href="#">Department of
+                                                                                Business</a></h5>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -389,17 +372,14 @@
                                                             <div class="image-box-item">
                                                                 <div class="inner">
                                                                     <div class="thumb data-effect-item">
-                                                                        <img src="landing/assets/img/imagebox/image-box-1-370x250.jpg"
+                                                                        <img src="landing/assets/img/imagebox/service.jpg"
                                                                             alt="Image">
                                                                         <div class="overlay-effect bg-color-accent">
                                                                         </div>
                                                                     </div>
                                                                     <div class="text-wrap">
-                                                                        <h5 class="heading"><a href="#">DESIGN &
-                                                                                BUILD</a></h5>
-                                                                        <span class="icon-wrap">
-                                                                            <i class="fa fa-angle-right"></i>
-                                                                        </span>
+                                                                        <h5 class="heading"><a href="#">Consumer
+                                                                                Protection Authority</a></h5>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -410,43 +390,20 @@
                                                             <div class="image-box-item">
                                                                 <div class="inner">
                                                                     <div class="thumb data-effect-item">
-                                                                        <img src="landing/assets/img/imagebox/image-box-2-370x250.jpg"
+                                                                        <img src="landing/assets/img/imagebox/service.jpg"
                                                                             alt="Image">
                                                                         <div class="overlay-effect bg-color-accent">
                                                                         </div>
                                                                     </div>
                                                                     <div class="text-wrap">
-                                                                        <h5 class="heading"><a href="#">BUILDING
-                                                                                ENVELOPES</a></h5>
-                                                                        <span class="icon-wrap">
-                                                                            <i class="fa fa-angle-right"></i>
-                                                                        </span>
+                                                                        <h5 class="heading"><a href="#">Consumer
+                                                                                Protection Authority</a></h5>
                                                                     </div>
                                                                 </div>
                                                             </div>
                                                         </div><!-- /.themesflat-image-box -->
 
-                                                        <div
-                                                            class="themesflat-image-box style-1 has-icon icon-right w65 clearfix">
-                                                            <div class="image-box-item">
-                                                                <div class="inner">
-                                                                    <div class="thumb data-effect-item">
-                                                                        <img src="landing/assets/img/imagebox/image-box-3-370x250.jpg"
-                                                                            alt="Image">
-                                                                        <div class="overlay-effect bg-color-accent">
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="text-wrap">
-                                                                        <h5 class="heading"><a
-                                                                                href="#">CONSTRUCTION
-                                                                                MANAGEMENT</a></h5>
-                                                                        <span class="icon-wrap">
-                                                                            <i class="fa fa-angle-right"></i>
-                                                                        </span>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div><!-- /.themesflat-image-box -->
+
                                                     </div>
                                                 </div><!-- /.themesflat-carousel-box -->
                                                 <div class="themesflat-spacer clearfix" data-desktop="50"
@@ -480,7 +437,13 @@
                         <div class="bottom-bar-menu">
                             <ul class="bottom-nav">
                                 <li class="menu-item current-menu-item">
-                                    <a href="home.html">HOME</a>
+                                    <a href="/">HOME</a>
+                                </li>
+                                <li class="menu-item current-menu-item">
+                                    <a href="/login">LOGIN</a>
+                                </li>
+                                <li class="menu-item current-menu-item">
+                                    <a href="/register">SIGNUP</a>
                                 </li>
                             </ul>
                         </div><!-- /.bottom-bar-menu -->
